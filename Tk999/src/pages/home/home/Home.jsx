@@ -58,6 +58,9 @@ const Home = () => {
     }
   }, []);
 
+
+  // addd 
+
   // ক্লোজ বাটন ক্লিক হ্যান্ডলার
   const handleCloseOverlay = () => {
     setShowOverlay(false);
@@ -125,7 +128,7 @@ const Home = () => {
                     marginRight: "100px",
                     fontSize: "24px",
                     fontWeight: 700,
-                    color: "rgb(35, 255, 200)",
+                    color: "rgba(48, 253, 202, 1)",
                     textTransform: "uppercase",
                   }}
                 >
